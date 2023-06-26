@@ -9,9 +9,11 @@
     "criteria": {
       "minecraft:deep_ocean": "2023-06-26 21:23:18 +0200",
       "minecraft:eroded_badlands": "2023-06-26 21:01:12 +0200",
+      "minecraft:frozen_river": "2023-06-27 01:15:03 +0200",
       "minecraft:cherry_grove": "2023-06-26 20:09:38 +0200",
       "minecraft:sunflower_plains": "2023-06-26 22:41:55 +0200",
       "minecraft:birch_forest": "2023-06-26 21:20:00 +0200",
+      "minecraft:windswept_hills": "2023-06-27 01:13:17 +0200",
       "minecraft:bamboo_jungle": "2023-06-26 20:18:45 +0200",
       "minecraft:wooded_badlands": "2023-06-26 20:41:32 +0200",
       "minecraft:badlands": "2023-06-26 20:35:09 +0200",
@@ -19,12 +21,18 @@
       "minecraft:lukewarm_ocean": "2023-06-26 21:09:58 +0200",
       "minecraft:river": "2023-06-26 17:21:05 +0200",
       "minecraft:stony_shore": "2023-06-26 20:56:47 +0200",
+      "minecraft:snowy_plains": "2023-06-27 01:13:15 +0200",
       "minecraft:dripstone_caves": "2023-06-26 15:58:39 +0200",
+      "minecraft:snowy_taiga": "2023-06-27 01:13:53 +0200",
       "minecraft:swamp": "2023-06-26 21:26:32 +0200",
+      "minecraft:cold_ocean": "2023-06-27 01:19:10 +0200",
       "minecraft:forest": "2023-06-26 20:07:48 +0200",
       "minecraft:desert": "2023-06-26 20:23:26 +0200",
+      "minecraft:windswept_forest": "2023-06-27 01:14:12 +0200",
       "minecraft:jungle": "2023-06-26 20:12:04 +0200",
       "minecraft:ocean": "2023-06-26 21:09:57 +0200",
+      "minecraft:snowy_beach": "2023-06-27 01:15:34 +0200",
+      "minecraft:windswept_savanna": "2023-06-27 01:23:03 +0200",
       "minecraft:warm_ocean": "2023-06-26 20:57:07 +0200",
       "minecraft:flower_forest": "2023-06-26 15:50:59 +0200",
       "minecraft:meadow": "2023-06-26 15:42:10 +0200",
@@ -2388,18 +2396,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2023-06-26 23:17:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2023-06-26 23:25:31 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2023-06-26 23:03:12 +0200"
@@ -2430,6 +2426,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-06-26 23:03:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-06-26 23:17:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2023-06-26 23:17:57 +0200"
@@ -2442,15 +2450,135 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_mossy_cobblestone": "2023-06-26 23:03:12 +0200"
+      "has_bone_meal": "2023-06-26 23:25:31 +0200"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2023-06-26 23:25:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-06-27 00:29:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-06-27 00:59:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2023-06-27 00:27:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2023-06-27 01:17:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-06-27 00:29:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-06-27 00:59:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-06-27 01:17:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-06-27 01:16:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2023-06-27 01:17:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2023-06-27 00:27:22 +0200"
     },
     "done": true
   },
