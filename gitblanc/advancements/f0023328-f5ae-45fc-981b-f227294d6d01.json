@@ -20,6 +20,8 @@
       "minecraft:wooded_badlands": "2023-06-26 20:41:32 +0200",
       "minecraft:badlands": "2023-06-26 20:35:09 +0200",
       "minecraft:beach": "2023-06-26 21:11:35 +0200",
+      "minecraft:dark_forest": "2023-07-04 01:22:40 +0200",
+      "minecraft:sparse_jungle": "2023-07-04 01:26:00 +0200",
       "minecraft:lukewarm_ocean": "2023-06-26 21:09:58 +0200",
       "minecraft:river": "2023-06-26 17:21:05 +0200",
       "minecraft:stony_shore": "2023-06-26 20:56:47 +0200",
@@ -31,6 +33,7 @@
       "minecraft:cold_ocean": "2023-06-27 01:19:10 +0200",
       "minecraft:forest": "2023-06-26 20:07:48 +0200",
       "minecraft:lush_caves": "2023-06-29 19:32:46 +0200",
+      "minecraft:deep_cold_ocean": "2023-07-04 00:54:47 +0200",
       "minecraft:frozen_ocean": "2023-06-29 01:47:48 +0200",
       "minecraft:desert": "2023-06-26 20:23:26 +0200",
       "minecraft:windswept_forest": "2023-06-27 01:14:12 +0200",
@@ -40,6 +43,8 @@
       "minecraft:windswept_savanna": "2023-06-27 01:23:03 +0200",
       "minecraft:warm_ocean": "2023-06-26 20:57:07 +0200",
       "minecraft:flower_forest": "2023-06-26 15:50:59 +0200",
+      "minecraft:frozen_peaks": "2023-07-04 00:53:20 +0200",
+      "minecraft:old_growth_birch_forest": "2023-07-04 01:22:04 +0200",
       "minecraft:deep_dark": "2023-06-29 18:49:59 +0200",
       "minecraft:meadow": "2023-06-26 15:42:10 +0200",
       "minecraft:savanna": "2023-06-26 20:09:16 +0200",
@@ -482,7 +487,9 @@
       "minecraft:pillager": "2023-06-26 21:06:49 +0200",
       "minecraft:blaze": "2023-06-29 16:37:52 +0200",
       "minecraft:skeleton": "2023-06-26 15:48:39 +0200",
+      "minecraft:elder_guardian": "2023-07-04 00:57:29 +0200",
       "minecraft:ghast": "2023-06-29 15:15:09 +0200",
+      "minecraft:guardian": "2023-07-04 00:56:49 +0200",
       "minecraft:vindicator": "2023-07-03 00:05:29 +0200",
       "minecraft:magma_cube": "2023-06-29 15:22:24 +0200",
       "minecraft:spider": "2023-06-26 16:20:30 +0200",
@@ -494,6 +501,7 @@
       "minecraft:cave_spider": "2023-06-26 16:40:48 +0200",
       "minecraft:piglin": "2023-06-29 15:27:45 +0200",
       "minecraft:enderman": "2023-06-29 15:20:40 +0200",
+      "minecraft:silverfish": "2023-07-04 01:31:12 +0200",
       "minecraft:zombie": "2023-06-26 16:03:17 +0200",
       "minecraft:drowned": "2023-06-26 21:18:59 +0200",
       "minecraft:zombie_villager": "2023-06-29 19:44:41 +0200"
@@ -3427,6 +3435,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-07-03 12:04:23 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
@@ -3451,12 +3465,6 @@
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2023-07-03 12:04:23 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
@@ -3469,12 +3477,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2023-07-03 13:01:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
@@ -3484,12 +3486,6 @@
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2023-07-03 12:27:55 +0200"
     },
     "done": true
   },
@@ -3523,33 +3519,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2023-07-03 12:27:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2023-07-03 13:01:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-03 12:05:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2023-07-03 13:01:13 +0200"
     },
     "done": true
   },
@@ -3570,6 +3548,150 @@
       "has_glass": "2023-07-03 12:05:04 +0200"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-03 12:27:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-03 12:27:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2023-07-03 13:01:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2023-07-03 13:01:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-07-03 13:01:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-07-04 01:33:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-07-04 00:57:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-04 00:57:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2023-07-04 01:33:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2023-07-04 00:57:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-07-04 01:02:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-07-04 00:57:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-07-04 01:31:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-04 00:57:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-04 00:57:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-07-04 00:57:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2023-07-04 01:02:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2023-07-04 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:black": "2023-07-04 01:08:29 +0200"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
